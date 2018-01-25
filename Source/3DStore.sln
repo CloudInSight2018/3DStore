@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DStore.API", "3DStore.API\3DStore.API.csproj", "{F4EF6C69-6059-4320-B122-68304C6757C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3DStore.API", "3DStore.API\3DStore.API.csproj", "{F4EF6C69-6059-4320-B122-68304C6757C9}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "3DStore.Azure", "3DStore.Azure\3DStore.Azure.deployproj", "{F24DD460-98B0-4104-AFF3-449AA1608D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DStore.Entities", "3DStore.Entities\3DStore.Entities.csproj", "{AC53B17D-0771-4761-97A4-2C6B8381A3CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F4EF6C69-6059-4320-B122-68304C6757C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4EF6C69-6059-4320-B122-68304C6757C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4EF6C69-6059-4320-B122-68304C6757C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24DD460-98B0-4104-AFF3-449AA1608D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24DD460-98B0-4104-AFF3-449AA1608D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24DD460-98B0-4104-AFF3-449AA1608D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24DD460-98B0-4104-AFF3-449AA1608D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC53B17D-0771-4761-97A4-2C6B8381A3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC53B17D-0771-4761-97A4-2C6B8381A3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC53B17D-0771-4761-97A4-2C6B8381A3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC53B17D-0771-4761-97A4-2C6B8381A3CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
