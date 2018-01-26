@@ -8,10 +8,13 @@ namespace _3DStore.Data.EF
     /// </summary>
     public class StoreDB : DbContext
     {        
+
         public StoreDB(DbContextOptions options) :base(options)
         {
-        }
         
+
+        }
+
         // <summary>
         /// 
         /// </summary>
